@@ -6,3 +6,4 @@ from sales_in_restaurants.restaurants_sale_data import generate_restaurants_menu
 generate_csv("./data/add-on.csv", generate_menu_add_on())
 generate_csv("./data/menus.csv", generate_restaurants_menu())
 generate_csv("./data/sale.csv", generate_restaurants_sale_history(num=100 * 30, time=12 * 3))
+#%%
