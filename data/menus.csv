@@ -1,51 +1,51 @@
 uuid,name,category,price,description,cost
-486c2680-be26-4a2e-9bf9-c45f7db60942,BIG BREAKFAST,All day breakfast,21.0,"Cevapi sausage, halloumi, bacon, grilled tomatoes, hash brown, ajvar relish, poached eggs on sourdough",19.99
-50cda618-ff78-4925-8ac9-a1460365ab76,BREAKFAST BURGER,All day breakfast,16.0,"Cevapi sausage, swiss cheese, spinach, relish, mayo, fried egg, bacon on brioche bun served w/ hash brown",15.1
-ab7b63e0-ccf0-4554-ada1-2f92f3935711,AVOCADO TOAST,All day breakfast,16.0,"Seeded toast w/ mixed seeds, marinated feta, dukkah, saffron infused hummus & crispy kale (V.VeO, GFO)",15.71
-cd2f4a20-1995-49ca-b5a0-2b19019b4ca4,COCONUT & CHIA PUDDING,All day breakfast,17.5,"House made almond granola, berry compote served w/ seasonal fruit (V, Ve)",16.2
-b5b81ee0-0c3e-4c3b-b40f-2752c58106aa,CHILLI SCRAMBLE,All day breakfast,18.0,"Asparagus, crispy shallots, fresh chilli, parsley, feta & sambol oelek w/toast w/ toast (V, GFO)",16.66
-1d1a9512-e587-4e24-8c8c-f5fa258d6408,"EGG, BACON & CHEESE TOASTIE",All day breakfast,10.5,"Sourdough, fried egg, house made relish, cheese & bacon (GFO)",9.05
-984198df-f37f-45a5-aa95-b4d61f54ff5a,HUEVOS (SPANISH BAKED EGGS),All day breakfast,16.5,"Bell pepper, tomato, onion, spices & pecorino cheese w/ seeded toast (V, GFO)",16.15
-d4c5b75b-0756-4e30-9ab9-0d0e5cdfe8b0,EGGS ON TOAST,All day breakfast,9.5,"Free range - poached, scrambled or fried (V. GFO)",8.82
-9b4d0dcb-8193-4041-bf72-cb6d8be356fd,TOAST,All day breakfast,7.0,"Sourdough or seeded toast w/ choice of butter/jam/peanut butter/Vegemite
+e957d560-97f1-4a6b-8982-92a511a35a57,BIG BREAKFAST,All day breakfast,21.0,"Cevapi sausage, halloumi, bacon, grilled tomatoes, hash brown, ajvar relish, poached eggs on sourdough",19.99
+7774cc21-f1d2-4f48-9749-f10711dd0668,BREAKFAST BURGER,All day breakfast,16.0,"Cevapi sausage, swiss cheese, spinach, relish, mayo, fried egg, bacon on brioche bun served w/ hash brown",15.1
+34bbc48e-7884-483b-b8c6-cd4bdcbdab00,AVOCADO TOAST,All day breakfast,16.0,"Seeded toast w/ mixed seeds, marinated feta, dukkah, saffron infused hummus & crispy kale (V.VeO, GFO)",15.71
+1dbdaaa2-162d-4f31-ae77-14188a737f04,COCONUT & CHIA PUDDING,All day breakfast,17.5,"House made almond granola, berry compote served w/ seasonal fruit (V, Ve)",16.2
+75b926e1-085c-4eb4-9d9e-2d0cf9e74590,CHILLI SCRAMBLE,All day breakfast,18.0,"Asparagus, crispy shallots, fresh chilli, parsley, feta & sambol oelek w/toast w/ toast (V, GFO)",16.66
+d919d8db-11a0-4790-a165-274960fca386,"EGG, BACON & CHEESE TOASTIE",All day breakfast,10.5,"Sourdough, fried egg, house made relish, cheese & bacon (GFO)",9.05
+85dec35d-73eb-4303-86f0-e0e19564a2e7,HUEVOS (SPANISH BAKED EGGS),All day breakfast,16.5,"Bell pepper, tomato, onion, spices & pecorino cheese w/ seeded toast (V, GFO)",16.15
+e74c85d0-ce48-47d7-ac47-2319047a69ad,EGGS ON TOAST,All day breakfast,9.5,"Free range - poached, scrambled or fried (V. GFO)",8.82
+9619360a-cbcd-4276-8fcc-64b1683da130,TOAST,All day breakfast,7.0,"Sourdough or seeded toast w/ choice of butter/jam/peanut butter/Vegemite
 (V. Ve, GFO)",5.35
-f4f87dc1-b4dc-40f1-8030-a8d7f68d046d,FRUIT TOAST,All day breakfast,7.5,"Raisins, apricots, prunes w/ citrus curd (V)",5.51
-8133fbdd-5466-4438-ab96-b458ebb33e6c,NEW YORK BAGEL BENEDICT,All day breakfast,13.0,Toasted bagel topped w/ wilted spinach. poached eggs & house made hollandaise sauce (V. GFO),12.89
-0eaf2868-76ad-4e65-a784-c0bfcc4c0d80,BURRITO BOWL,All day lunch,18.5,"Lime brown rice, avocado, purple cabbage. chargrilled corn, spiced black beans, pickled capsicum, spinach, tortilla chips (V, Ve, GFO)",18.19
-d3a50c4e-0703-41a2-a9ca-c44012821b82,SOFT SHELL TORTILLAS,All day lunch,18.5,"Spicy crispy chicken, avocado, chilli & corn salsa, chipotle aioli, slaw in soft shell tortillas
+5edb8466-76b2-4f1a-b79d-45dd2f247d69,FRUIT TOAST,All day breakfast,7.5,"Raisins, apricots, prunes w/ citrus curd (V)",5.51
+f8cd46e6-e1ca-422a-abe3-68cb7bc2b498,NEW YORK BAGEL BENEDICT,All day breakfast,13.0,Toasted bagel topped w/ wilted spinach. poached eggs & house made hollandaise sauce (V. GFO),12.89
+21bebb7b-5307-48ee-b2da-dd9859e14456,BURRITO BOWL,All day lunch,18.5,"Lime brown rice, avocado, purple cabbage. chargrilled corn, spiced black beans, pickled capsicum, spinach, tortilla chips (V, Ve, GFO)",18.19
+73de2601-b021-4df9-be90-e310eff13595,SOFT SHELL TORTILLAS,All day lunch,18.5,"Spicy crispy chicken, avocado, chilli & corn salsa, chipotle aioli, slaw in soft shell tortillas
 (V, VeO)",17.7
-627b5ea5-d882-4c2b-bbfe-1fd7bee00b9e,OPEN LAMB SOUVLAKI,All day lunch,18.5,"8 hour slow cooked lamb. pita bread, Greek salad, tzatziki w/ fries",18.04
-5e98f9b5-2b8f-4d47-b86e-678bbf3bf224,WINIFRED WAGYU BURGER,All day lunch,18.5,"House made 130g grilled wagyu beef patty, cheddar, lettuce, tomato, pickle, Winifred special sauce on brioche bun w/ side of fries (GFO)",17.16
-1724a432-7f7c-4193-a102-1375a49bb9da,TEXAN COUSIN BURGER,All day lunch,18.5,"Southern style spiced chicken, lettuce, apple slaw, tomato, swiss cheese, pickled mayo on brioche bun w/ side of fries (GFO)",17.86
-45a93b2d-786e-4628-9b13-8eaa8ed8b90f,VEGAN SWISS BROWN MUSHROOM BURGER,All day lunch,18.0,"Crispy porcini mushroom patty, pickled red capsicum, lettuce, tomato, onion relish on sourdough bun w/ side of fries (V. Ve. (GFO)",16.45
-c4f8737c-2931-4935-9b6b-b14254965b5b,Cheese & tomato,Toasties On Sourdough,7,Toasties on sourdough,6.33
-b2ec2e23-2c74-4227-9be2-df2e2623835f,"Chicken, avocado, lettuce & aioli",Toasties On Sourdough,11.5,Toasties on sourdough,11.29
-15a94b09-e373-44f1-aede-1d725075cee1,Ham & cheese,Toasties On Sourdough,7,Toasties on sourdough,5.57
-06f795ae-3c5b-460c-87b1-8709bf565cf2,"Ham, cheese & tomato",Toasties On Sourdough,7.5,Toasties on sourdough,7.36
-1968acd0-b167-4b98-b237-007a1d0465e9,Mushroom & cheese,Toasties On Sourdough,8.5,Toasties on sourdough,6.56
-353edefc-d49c-4ee2-9b06-3a0a16879826,Avocado & cheese,Toasties On Sourdough,9,Toasties on sourdough,8.3
-ab024309-6247-43c4-96b7-40e2722b6073,Bacon & tomato,Toasties On Sourdough,8.5,Toasties on sourdough,6.83
-9aa0e9fc-e686-4eb7-8a14-b26caa83cf01,Bacon & egg,Toasties On Sourdough,8.5,Toasties on sourdough,7.16
-be479863-a59c-4265-aa9b-c142744c530a,"BLT (bacon, lettuce & tomato)",Toasties On Sourdough,11,Toasties on sourdough,9.6
-439017c0-3df6-46eb-9b5a-7eb9f2d8b9b3,FRIES,Fries,7.5,Served w/ aioli,7.29
-1660383d-eb07-4b60-bbcb-ce62e824e23a,Quiche w/ relish,House Made Pastries,7.0,Served w/ aioli,5.14
-48b3d9b1-2dee-4f91-b594-53da55ccc113,Savoury muffin,House Made Pastries,6.0,Served w/ aioli,5.31
-5aab70a4-2677-46c4-b981-499fba9cc296,"Chicken, beef & pork or vegan sausage roll",House Made Pastries,7,Served w/ aioli,6.47
-ae96ebaa-cf60-4f6d-9a4a-66a0f82110c1,Lamington,"CAKES, SLICES & SWEETS",18.0,House made assortment available from display - Aussie classic sponge cake dipped in chocolate and rolled in coconut,16.64
-2148e32d-db2a-4b97-bf57-2e0d4bc6d3be,Pavlova,"CAKES, SLICES & SWEETS",20.0,House made assortment available from display - Crisp meringue base topped with fresh fruit and whipped cream,18.9
-c2f8a72e-85a3-455c-b4af-213bedaff152,Anzac Biscuit,"CAKES, SLICES & SWEETS",22.0,"House made assortment available from display - Crunchy, chewy oat cookies with a rich history",20.87
-5eb1540f-9eef-4c87-8276-16b6928b1129,Vanilla Slice,"CAKES, SLICES & SWEETS",20.0,"House made assortment available from display - Creamy vanilla custard between layers of flaky pastry, topped with icing",19.68
-abcfd880-c37f-4b5f-9229-ac55db1512f6,Tim Tam Cheesecake,"CAKES, SLICES & SWEETS",12.0,House made assortment available from display - Cheesecake with a Tim Tam biscuit base and chocolate topping,10.62
-7e572d5c-7e84-4d55-a144-38862e98e015,Fairy Bread,"CAKES, SLICES & SWEETS",26.0,House made assortment available from display - Simple yet delightful bread with butter and colorful sprinkles,25.79
-2c53369e-a335-4118-a7e5-80b458d7d90e,Flat White,Beverage,4.0,"A smooth, velvety milk coffee",2.69
-4abb68a2-a712-485d-a8a1-68f24ca90396,Latte,Beverage,4.5,Creamy coffee with steamed milk,3.96
-fb8ff314-b157-46b2-9b15-c5f26008b60f,Cappuccino,Beverage,4.5,"Rich coffee with a frothy top, sprinkled with cocoa",2.63
-ad38f118-d7fd-4b06-ac31-cf5ad233bb7a,Long Black,Beverage,3.5,Double shot of espresso with hot water,3.06
-9c7edccb-9890-426c-b512-a41ddcad6c82,Espresso,Beverage,3.0,Strong and black shot of coffee,1.6
-3e0d0ed7-209e-4435-90c7-88f0ae80ed06,Mocha,Beverage,5.0,"Coffee with chocolate, topped with steamed milk and cocoa",3.76
-adc4bf2a-f470-47fb-abeb-0c95dd287e69,Hot Chocolate,Beverage,4.0,Rich and creamy hot chocolate,3.6
-9debe1de-320e-4c7b-abe9-05ab441225fe,Orange Juice,Beverage,5.0,Freshly squeezed orange juice,4.32
-532c6a27-d08f-4a70-bc6c-27049fa3707b,Apple Juice,Beverage,5.0,Freshly pressed apple juice,4.12
-26e527a9-bb66-4087-8e0c-9f586422ab86,Lemonade,Beverage,3.0,Classic refreshing lemonade,2.69
-dd07d0e9-e283-4f08-8487-8112311d23c1,Cola,Beverage,3.0,Popular carbonated cola Beverage,1.45
-a8b5c19a-aa14-483c-b209-7604572afc84,Sparkling Water,Beverage,3.0,Refreshing carbonated water,2.12
+00f272c7-5d55-439d-8bdb-8e994b60890a,OPEN LAMB SOUVLAKI,All day lunch,18.5,"8 hour slow cooked lamb. pita bread, Greek salad, tzatziki w/ fries",18.04
+69576f61-cb71-457f-a1f1-22b00fb950cc,WINIFRED WAGYU BURGER,All day lunch,18.5,"House made 130g grilled wagyu beef patty, cheddar, lettuce, tomato, pickle, Winifred special sauce on brioche bun w/ side of fries (GFO)",17.16
+b362b328-7611-48dd-aa73-74c58eecfc65,TEXAN COUSIN BURGER,All day lunch,18.5,"Southern style spiced chicken, lettuce, apple slaw, tomato, swiss cheese, pickled mayo on brioche bun w/ side of fries (GFO)",17.86
+0fc6aa84-5bf6-4ca7-aec3-2f20e7576f93,VEGAN SWISS BROWN MUSHROOM BURGER,All day lunch,18.0,"Crispy porcini mushroom patty, pickled red capsicum, lettuce, tomato, onion relish on sourdough bun w/ side of fries (V. Ve. (GFO)",16.45
+456f2ccf-b6ab-4464-b1c3-97019a37fa28,Cheese & tomato,Toasties On Sourdough,7,Toasties on sourdough,6.33
+63e1f307-40ad-4192-9e85-0f54baeda9ea,"Chicken, avocado, lettuce & aioli",Toasties On Sourdough,11.5,Toasties on sourdough,11.29
+358933fb-11af-4881-9f4d-f0869414c203,Ham & cheese,Toasties On Sourdough,7,Toasties on sourdough,5.57
+894f7fe8-66f6-4fcb-a30c-f8c6312fca06,"Ham, cheese & tomato",Toasties On Sourdough,7.5,Toasties on sourdough,7.36
+ecc041da-20aa-4f4f-94c1-5bfefaa49b88,Mushroom & cheese,Toasties On Sourdough,8.5,Toasties on sourdough,6.56
+ba5bd3d6-7893-4a2c-99d3-0013b3d5b91d,Avocado & cheese,Toasties On Sourdough,9,Toasties on sourdough,8.3
+5daea292-d901-49b7-b396-fb46eb8e36e5,Bacon & tomato,Toasties On Sourdough,8.5,Toasties on sourdough,6.83
+b436bcbe-afad-4ad7-b258-e80ba353b93c,Bacon & egg,Toasties On Sourdough,8.5,Toasties on sourdough,7.16
+0653d4ee-ae9a-4eb3-bd1d-5d300fa87f6e,"BLT (bacon, lettuce & tomato)",Toasties On Sourdough,11,Toasties on sourdough,9.6
+5c50314e-607d-4c53-99c7-d5f8088f0087,FRIES,Fries,7.5,Served w/ aioli,7.29
+529c5c39-6994-4086-926f-631fefb43f6d,Quiche w/ relish,House Made Pastries,7.0,Served w/ aioli,5.14
+8f5a0d97-81a7-4d65-b870-75e71e30c50b,Savoury muffin,House Made Pastries,6.0,Served w/ aioli,5.31
+9a0c5c90-e3c1-49b2-9b4d-5a3a3518bb98,"Chicken, beef & pork or vegan sausage roll",House Made Pastries,7,Served w/ aioli,6.47
+55ed2160-0dab-424a-b04f-dfac1cc02583,Lamington,"CAKES, SLICES & SWEETS",18.0,House made assortment available from display - Aussie classic sponge cake dipped in chocolate and rolled in coconut,16.64
+df1a1776-351c-4134-958e-39ff18b9d067,Pavlova,"CAKES, SLICES & SWEETS",20.0,House made assortment available from display - Crisp meringue base topped with fresh fruit and whipped cream,18.9
+3206dfab-b84e-473b-9b73-b2dc5760f84b,Anzac Biscuit,"CAKES, SLICES & SWEETS",22.0,"House made assortment available from display - Crunchy, chewy oat cookies with a rich history",20.87
+2a6f257d-1744-4f24-9ac5-272528a8dc97,Vanilla Slice,"CAKES, SLICES & SWEETS",20.0,"House made assortment available from display - Creamy vanilla custard between layers of flaky pastry, topped with icing",19.68
+964cf981-5a60-467a-a4f3-93366113c683,Tim Tam Cheesecake,"CAKES, SLICES & SWEETS",12.0,House made assortment available from display - Cheesecake with a Tim Tam biscuit base and chocolate topping,10.62
+d54fd712-dc62-456f-a83c-9c7607025335,Fairy Bread,"CAKES, SLICES & SWEETS",26.0,House made assortment available from display - Simple yet delightful bread with butter and colorful sprinkles,25.79
+ed685101-e9e0-4910-9b10-4dcc136477d1,Flat White,Beverage,4.0,"A smooth, velvety milk coffee",2.69
+69d96f22-6dc8-4479-aa5a-da362c783a35,Latte,Beverage,4.5,Creamy coffee with steamed milk,3.96
+fd9556ed-db5e-4c71-a052-28a2b9826d66,Cappuccino,Beverage,4.5,"Rich coffee with a frothy top, sprinkled with cocoa",2.63
+e92aa84d-0844-4548-925b-6c8899e46701,Long Black,Beverage,3.5,Double shot of espresso with hot water,3.06
+4b6e7b1b-c7ec-4d1c-ad44-ea427e7a48d3,Espresso,Beverage,3.0,Strong and black shot of coffee,1.6
+7a2d7803-edda-4318-96e4-2528940c76d3,Mocha,Beverage,5.0,"Coffee with chocolate, topped with steamed milk and cocoa",3.76
+cc17eed8-26d0-4804-abe9-698b79de6152,Hot Chocolate,Beverage,4.0,Rich and creamy hot chocolate,3.6
+80a45d14-4909-4645-b084-93afd6d11f6d,Orange Juice,Beverage,5.0,Freshly squeezed orange juice,4.32
+e6f25b9c-b22f-46d9-9d60-3f8fe6869ed2,Apple Juice,Beverage,5.0,Freshly pressed apple juice,4.12
+929d23bd-229e-4a63-aeff-9464f7e82879,Lemonade,Beverage,3.0,Classic refreshing lemonade,2.69
+688fc482-7192-46d2-92f7-8e847ba7939b,Cola,Beverage,3.0,Popular carbonated cola Beverage,1.45
+b6d4788e-12c0-4ae3-9551-19a727fd45db,Sparkling Water,Beverage,3.0,Refreshing carbonated water,2.12

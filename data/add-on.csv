@@ -1,47 +1,47 @@
 uuid,menu,name,price,cost
-421eaef7-d4ab-40ae-86c1-1feaf2ad0c18,Sparkling Water,Ice,0.0,1.24
-c0500077-7dcf-411c-97de-6e10a083a416,Sparkling Water,Lemon Slice,0.5,0.58
-73ed0f61-dff1-405c-b82b-d5ef7bd1ae5d,Sparkling Water,Lime Slice,0.5,0.65
-ac2328ee-6bd5-4887-82b6-0e4356070c36,Cola,Ice,0.0,0.48
-9565589f-5a62-45d3-aeca-9dfc63be4c1b,Cola,Lemon Slice,0.5,0.32
-e1ea9470-f3a2-43a2-95f0-12c003af4494,Lemonade,Ice,0.0,0.87
-98eaf60e-a2dd-4b8c-afd6-92410c6f02d7,Lemonade,Lemon Slice,0.5,0.98
-5956639b-9b05-4079-bdc3-7949214a0e19,Apple Juice,Ice,0.0,1.28
-2c31ba0d-7083-4b6c-941c-c04cf15cc2d0,Orange Juice,Ice,0.0,0.22
-b3c77300-0a58-4892-b22a-48d685206e1a,Hot Chocolate,Whipped Cream,0.5,1.36
-1338a617-12d1-4daa-9a0d-85801ff80a6f,Hot Chocolate,Marshmallows,0.5,1.28
-5d924ff3-6f20-4b42-b3d4-e52f9936c75b,Mocha,Extra Shot,0.5,0.75
-3ebfe849-ad35-4d05-91fa-96dfab3fce08,Mocha,Almond Milk,0.5,1.42
-01aa15c8-4ee8-4ee3-82d6-c2161d5c5652,Mocha,Soy Milk,0.5,1.07
-5124c46b-6081-458d-9bfe-8cddda6633f8,Mocha,Whipped Cream,0.5,0.03
-71598801-8ab5-4326-9c87-b0e3f2eefcb2,Espresso,Extra Shot,0.5,0.24
-94ab8001-a751-449e-a291-7418965a17ca,Long Black,Extra Shot,0.5,0.01
-2ec8732e-3e02-4f9b-88c8-f1b23ad6b50a,Cappuccino,Extra Shot,0.5,0.12
-75d9653d-76a8-4625-8c17-1ace358bb0cc,Cappuccino,Almond Milk,0.5,0.07
-77e5e88c-5b33-41eb-9c23-5e6d809a904b,Cappuccino,Soy Milk,0.5,0.84
-1ecf5dd9-4ca7-45a7-aa14-6a1de27a9109,Cappuccino,Hazelnut Syrup,0.5,0.36
-3b204ff2-a3e8-4ed3-8657-820fd006bb30,Latte,Extra Shot,0.5,0.61
-fee28f8d-2245-4684-b609-4fd801752eb5,Latte,Almond Milk,0.5,0.95
-8ac859ec-b25d-469f-bab2-77d61ddce0d7,Latte,Soy Milk,0.5,0.32
-58efd6e8-390b-4fea-b3e5-49b6b85ee7c3,Latte,Caramel Syrup,0.5,0.16
-8b4a42f9-5af6-4480-815b-4028205ada26,Flat White,Extra Shot,0.5,0.05
-befab1d2-1702-496a-991c-c5f5cb77542a,Flat White,Almond Milk,0.5,0.05
-c59baf6e-3b02-48d2-97e7-457ad3a7f37e,Flat White,Soy Milk,0.5,1.31
-45f1f4a4-e8e4-4764-b13e-5708061662a7,Flat White,Vanilla Syrup,0.5,0.74
-69b8d31c-67e2-49ef-8d35-339a65fd9f07,BURRITO BOWL,Chicken,4.5,3.33
-24d7d641-f54b-43bc-884b-1a105dd54a82,AVOCADO TOAST,Free range eggs,2.5,2.17
-c7826c8f-36d0-4883-a1bf-56b627a9af7f,AVOCADO TOAST,Smoked salmon,4.5,3.47
-4dcc3a72-8cc4-4db3-9f98-42037dd62aa2,AVOCADO TOAST,Grilled halloumi,3.0,1.44
-4e0b4f4b-0f68-44e4-95f1-5447554a7923,AVOCADO TOAST,Bacon,4.5,3.77
-9b15e9d5-e75b-4a7a-95cb-e88a443f0e7e,NEW YORK BAGEL BENEDICT,Bacon,3.5,3.0
-fd16faca-bb8f-41d3-81da-fe8c8671d8e9,NEW YORK BAGEL BENEDICT,BBQ pulled pork,3.5,3.14
-9ab0b226-f250-405a-9e11-d1eb9306c30a,NEW YORK BAGEL BENEDICT,Smoked salmon,3.5,3.11
-ef0b5c57-f207-4c44-875f-e87db485967d,EGGS ON TOAST,"Salmon, bacon, cevapi, Chorizo",4.5,3.02
-e5d393d9-3224-4d48-b0f2-d09397b044dd,EGGS ON TOAST,"Smashed avocado, hash brown, mushroom, Grilled halloumi, baked beans",4.0,3.09
-d7ff61ed-8590-40e1-a1d0-2725afd90af6,EGGS ON TOAST,"Grilled tomatoes, spinach, Feta",3.0,2.8
-f5440d34-de2b-43dc-8d82-9df0fa03698c,EGGS ON TOAST,"Free range egg, ajvar. hollandaise",2.5,0.77
-b76d7530-bbbb-43e6-abe2-e51035366143,EGGS ON TOAST,Gluten free bread,1.5,0.58
-be23ed51-224e-4a1c-94c5-f43da6dcfb67,EGGS ON TOAST,"Toast, curd",1,0.22
-f663e6cf-7968-490d-b1ba-39d76dbba21d,HUEVOS (SPANISH BAKED EGGS),Traditional spanish chorizo,4.5,4.05
-9faab573-0b44-418e-9e9e-59c23f9bc89c,Hot Chocolate,Whipped Cream,0.5,0.2
-b37b8cc0-0671-405d-ac8d-7f9c4ece02c3,Hot Chocolate,Marshmallows,0.5,0.37
+d7970a2c-dfd9-49ee-9134-26bd189dc159,Sparkling Water,Ice,0.0,1.24
+e0983b9c-83f8-4d6f-8d8d-fd6b91f80325,Sparkling Water,Lemon Slice,0.5,0.58
+afc34b9a-0cab-49bd-864a-7a218eba655d,Sparkling Water,Lime Slice,0.5,0.65
+d579aac5-73ba-4ba5-a1ab-d0130997c05e,Cola,Ice,0.0,0.48
+1c7a0afb-0ac1-4905-8df4-a70a30f24705,Cola,Lemon Slice,0.5,0.32
+8dfd3d8a-48d1-4a0e-afd8-d6cebd436230,Lemonade,Ice,0.0,0.87
+8d467334-44eb-4c31-b8b9-f5e56f080c6f,Lemonade,Lemon Slice,0.5,0.98
+c72b7fc9-6a1f-4f39-aca4-3bf3ed633862,Apple Juice,Ice,0.0,1.28
+28a0b9ab-7800-4c09-a148-186f5c564034,Orange Juice,Ice,0.0,0.22
+918fc18a-4dbf-40b9-b8a9-f58a2e0378fd,Hot Chocolate,Whipped Cream,0.5,1.36
+f0354e10-8b80-43a4-8ede-929e19a79aed,Hot Chocolate,Marshmallows,0.5,1.28
+5326130b-d51f-4f23-b9be-3f25876131ba,Mocha,Extra Shot,0.5,0.75
+88eda148-07a1-4d98-99d4-96679d810d53,Mocha,Almond Milk,0.5,1.42
+8997ef24-ee44-44e8-9af2-57892c84fca7,Mocha,Soy Milk,0.5,1.07
+bbbc7661-744f-42d8-b1e0-8ac365f8b73b,Mocha,Whipped Cream,0.5,0.03
+5f874d3d-5dc2-4d9b-a684-ffe306ae3214,Espresso,Extra Shot,0.5,0.24
+4da3cb0a-775f-4623-877d-3be5291be228,Long Black,Extra Shot,0.5,0.01
+a0a940d8-e23b-44b7-8012-bf592fa7a05a,Cappuccino,Extra Shot,0.5,0.12
+a3df249d-0d5e-4072-87cb-ab77418718e4,Cappuccino,Almond Milk,0.5,0.07
+24eb9657-a9a7-4d7c-8939-45d9c7ad925a,Cappuccino,Soy Milk,0.5,0.84
+08c425e0-3f46-485a-9811-2c0b5362e1c1,Cappuccino,Hazelnut Syrup,0.5,0.36
+c02b6d74-eb76-4f61-8c34-e7ca4db0fbdf,Latte,Extra Shot,0.5,0.61
+f64e5e83-7e0a-4aa8-be57-4e4d1921fb00,Latte,Almond Milk,0.5,0.95
+3e8d4bc1-d5c7-4714-b8ab-2325647e92c3,Latte,Soy Milk,0.5,0.32
+ced6056c-8587-49f2-8999-51ae46a77389,Latte,Caramel Syrup,0.5,0.16
+e144e618-0d83-493b-b212-ec83c1f4ca6a,Flat White,Extra Shot,0.5,0.05
+6a393a0a-1a09-4aad-8460-9273754de60c,Flat White,Almond Milk,0.5,0.05
+542f91a3-10db-4e4d-8db7-4a41929a59db,Flat White,Soy Milk,0.5,1.31
+557a8bde-b26f-40b7-a3e4-fcb33fbfdec1,Flat White,Vanilla Syrup,0.5,0.74
+981542ad-4ca4-4e50-9b9d-9ffaca21b81a,BURRITO BOWL,Chicken,4.5,3.33
+496f8736-6b28-4fee-8e00-b2d3716ca3aa,AVOCADO TOAST,Free range eggs,2.5,2.17
+da6630c2-bdf1-41b0-9353-7c6d399d06de,AVOCADO TOAST,Smoked salmon,4.5,3.47
+6963c80c-1b81-4545-999d-72e38642e8e5,AVOCADO TOAST,Grilled halloumi,3.0,1.44
+94434a5e-c12b-4dc1-8be1-135c1bda2d25,AVOCADO TOAST,Bacon,4.5,3.77
+795d2b4b-e2e5-432c-8680-3ea3a3258fb5,NEW YORK BAGEL BENEDICT,Bacon,3.5,3.0
+520c97cb-ffee-45b7-88a8-dfb771ee93a3,NEW YORK BAGEL BENEDICT,BBQ pulled pork,3.5,3.14
+b55a0df4-2901-4c97-a08e-d9cd2681ff00,NEW YORK BAGEL BENEDICT,Smoked salmon,3.5,3.11
+bca3cd2f-a7f6-4b5d-a16b-647a750066d7,EGGS ON TOAST,"Salmon, bacon, cevapi, Chorizo",4.5,3.02
+d2ae2af4-1043-4d9a-9364-6f4fb0ed27c1,EGGS ON TOAST,"Smashed avocado, hash brown, mushroom, Grilled halloumi, baked beans",4.0,3.09
+a1ef07dc-01cc-4fa1-aa54-f0433fd3478e,EGGS ON TOAST,"Grilled tomatoes, spinach, Feta",3.0,2.8
+bdc30533-2104-4ac2-8a99-017f9836ee27,EGGS ON TOAST,"Free range egg, ajvar. hollandaise",2.5,0.77
+d1c16cbd-9988-4fcb-b4e2-fd6df63e5087,EGGS ON TOAST,Gluten free bread,1.5,0.58
+22fa7360-c3fd-40e8-847a-a7c8a6c9fd51,EGGS ON TOAST,"Toast, curd",1,0.22
+492731b6-c7a5-4baf-ad7b-e33396b54ce5,HUEVOS (SPANISH BAKED EGGS),Traditional spanish chorizo,4.5,4.05
+36564e11-57a2-4ff3-b0a4-fd91d1f5fccf,Hot Chocolate,Whipped Cream,0.5,0.2
+c9c29266-bc87-4cc2-a337-41868d07f050,Hot Chocolate,Marshmallows,0.5,0.37

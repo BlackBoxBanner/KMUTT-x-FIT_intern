@@ -225,7 +225,7 @@ def is_open(date_time):
     return opening_time <= current_time <= closing_time
 
 
-# Define a function to generate a sales history with UUIDs
+# Function to generate a dynamic sales history
 def generate_restaurants_sale_history(num=3000, month=1, time=1):
     num = num * time
     month = month * time
@@ -236,20 +236,37 @@ def generate_restaurants_sale_history(num=3000, month=1, time=1):
     beverage_items = [item for item in menus if item["category"] == "Beverage"]
     other_items = [item for item in menus if item["category"] != "Beverage"]
 
+    # Factors affecting sales
+    day_factors = {0: 0.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.2, 5: 1.5, 6: 1.3}  # Monday to Sunday
+    time_factors = {"morning": 1.0, "afternoon": 1.5, "evening": 1.2}
+
     for _ in tqdm(range(num), desc="Generating sales history"):
         while True:
             sale_time = start_date + timedelta(minutes=random.randint(0, 30 * 24 * 60 * month))
             if is_open(sale_time):
                 break
 
-        if random.random() < 0.4:  # 40% chance to select a beverage
+        day_factor = day_factors[sale_time.weekday()]
+        hour = sale_time.hour
+        if 7 <= hour < 12:
+            time_factor = time_factors["morning"]
+        elif 12 <= hour < 17:
+            time_factor = time_factors["afternoon"]
+        else:
+            time_factor = time_factors["evening"]
+
+        # Adjust probability of selecting a beverage
+        beverage_prob = 0.4 * day_factor * time_factor
+        if random.random() < beverage_prob:
             menu_item = random.choice(beverage_items)
         else:
             menu_item = random.choice(other_items)
 
+        # Adjust probability of selecting add-ons
         add_ons = [ao for ao in add_on if ao["menu"] == menu_item["name"]]
         selected_add_ons = []
-        if add_ons and random.random() < 0.2:  # 20% chance to select add-ons
+        add_ons_prob = 0.2 * day_factor * time_factor
+        if add_ons and random.random() < add_ons_prob:
             selected_add_ons = random.sample(add_ons, k=random.randint(1, len(add_ons)))
 
         sales_history.append({
