@@ -237,7 +237,7 @@ def generate_restaurants_sale_history(num=3000, month=1, time=1):
     other_items = [item for item in menus if item["category"] != "Beverage"]
 
     # Factors affecting sales
-    day_factors = {0: 0.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.2, 5: 1.5, 6: 1.3}  # Monday to Sunday
+    day_factors = {0: 0.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.2, 5: 1.5, 6: 1.8}  # Monday to Sunday
     time_factors = {"morning": 1.0, "afternoon": 1.5, "evening": 1.2}
 
     for _ in tqdm(range(num), desc="Generating sales history"):
