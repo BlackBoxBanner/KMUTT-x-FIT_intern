@@ -9,11 +9,6 @@ from tqdm import tqdm
 fake = Faker(["en_AU"])
 
 
-# Helper function to round prices to nearest .0, .25, .50, or .75
-def custom_round_price(price):
-    return round(price * 4) / 2
-
-
 # Define menu items with categories
 menus = [{'name': 'BIG BREAKFAST', 'category': 'All day breakfast', 'price': 21.0,
           'description': 'Cevapi sausage, halloumi, bacon, grilled tomatoes, hash brown, ajvar relish, poached eggs on sourdough',
