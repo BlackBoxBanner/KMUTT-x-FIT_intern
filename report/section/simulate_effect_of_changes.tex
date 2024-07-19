@@ -1,0 +1,168 @@
+\subsection{ Simulate The Impact Of Food Waste }
+
+As previously stated in Section~\ref{subsection:objective}, our primary objective is to simulate the impact of food waste on the cafe's operations, as well as explore the effects of increased efforts at different times of the day.
+
+\subsubsection{Packages Used}
+
+\begin{enumerate}
+	\item \textbf{pandas (pd):} A library for data manipulation and analysis. Used to handle and analyze large datasets in this project.
+	\item \textbf{scikit-learn:} A machine learning library that provides various algorithms for classification, regression, clustering, and more. Used to build and evaluate machine learning models.
+	\item \textbf{train\_test\_split (from sklearn.model\_selection):} A function to split a dataset into training and testing sets. Used to evaluate model performance using metrics like accuracy, precision, recall, F1-score, etc.
+	\item \textbf{RandomForestRegressor (from sklearn.ensemble):} A type of ensemble learning algorithm that combines multiple decision trees to make predictions. Used for regression tasks, such as predicting continuous values.
+	\item \textbf{mean\_squared\_error (from sklearn.metrics):} A function to calculate the mean squared error (MSE) between predicted and actual values. Used to evaluate model performance using regression metrics like MSE, RMSE, MAE, etc.
+	\item \textbf{numpy (np):} A library for efficient numerical computation that provides support for large, multi-dimensional arrays and matrices. Used for numerical computations and simulations.
+	\item \textbf{matplotlib.pyplot (plt):} A plotting library for creating static, animated, and interactive visualizations. Used to create reports and presentations.
+	\item \textbf{LabelEncoder (from sklearn.preprocessing):} A function to convert categorical variables into numerical labels. Used to handle categorical data in machine learning models.
+\end{enumerate}
+
+\subsubsection{ Code }
+
+The following section provides an overview of the key codes employed in this simulation, highlighting the essential programming constructs and algorithms used to model the cafe's operations and simulate the impact of food waste.
+
+\textbf{Encode categorical variables}
+
+\begin{lstlisting}
+label_encoders = {}
+for column in data.select_dtypes(include=['object']).columns:
+    label_encoders[column] = LabelEncoder()
+    data[column] = label_encoders[column].fit_transform(data[column])
+\end{lstlisting}
+
+The encoding of categorical variables in the dataset was achieved through the utilization of the LabelEncoder class, a component of scikit-learn's preprocessing module. This class enables the conversion of categorical values into numerical labels, facilitating the analysis and manipulation of these variables within the simulation.
+
+\textbf{Initialize and train the model}
+
+\begin{lstlisting}
+model = RandomForestRegressor(n_estimators=100, random_state=42)
+model.fit(X_train, y_train)
+\end{lstlisting}
+
+The implementation of the Random Forest Regressor model commenced by initializing an instance with 100 decision trees, followed by the training process utilizing the fit method on the provided training data.
+
+\textbf{Predict on the test set}
+
+\begin{lstlisting}
+y_pred = model.predict(X_test)
+\end{lstlisting}
+
+The trained Random Forest Regressor model was subsequently employed to generate predictions for the testing dataset, leveraging its learned patterns and relationships to forecast the target variable.
+
+\textbf{Simulate reducing food loss}
+
+\begin{lstlisting}
+simulation_data = data.copy()
+simulation_data['cost'] *= 0.9
+simulation_X = simulation_data.drop(columns=['total_sales'])
+predicted_sales = model.predict(simulation_X)
+simulation_data['predicted_total_sales'] = predicted_sales
+effect_food_loss = simulation_data['predicted_total_sales'].sum() - data['total_sales'].sum()
+print(f'Effect of reducing food loss: {effect_food_loss}')
+\end{lstlisting}
+
+A hypothetical scenario was simulated wherein food loss was reduced by 10\% by applying a discount factor of 0.9 to the 'cost' column. Subsequently, the trained Random Forest Regressor model was utilized to predict the total sales under this revised scenario, and the resulting impact on total sales was calculated.
+
+\textbf{Simulate putting more effort into lunch}
+
+\begin{lstlisting}
+simulation_data = data.copy()
+lunch_index = label_encoders['time_category'].transform(['Lunch'])[0]
+simulation_data.loc[simulation_data['time_category'] == lunch_index, 'sales'] *= 1.1
+simulation_X = simulation_data.drop(columns=['total_sales'])
+predicted_sales = model.predict(simulation_X)
+simulation_data['predicted_total_sales'] = predicted_sales
+effect_lunch_effort = simulation_data['predicted_total_sales'].sum() - data['total_sales'].sum()
+print(f'Effect of putting more effort into lunch: {effect_lunch_effort}')
+\end{lstlisting}
+
+A hypothetical scenario was simulated wherein increased effort was devoted to the 'Lunch' category, resulting in a 10\% boost to sales for this specific category. Subsequently, the trained Random Forest Regressor model was utilized to predict the total sales under this revised scenario, and the resulting impact on total sales was calculated.
+
+\textbf{Simulate increasing customer frequency}
+
+\begin{lstlisting}
+simulation_data = data.copy()
+simulation_data['frequency'] *= 1.1
+simulation_X = simulation_data.drop(columns=['total_sales'])
+predicted_sales = model.predict(simulation_X)
+simulation_data['predicted_total_sales'] = predicted_sales
+effect_customer_frequency = simulation_data['predicted_total_sales'].sum() - data['total_sales'].sum()
+print(f'Effect of increasing customer frequency: {effect_customer_frequency}')
+\end{lstlisting}
+
+A hypothetical scenario was simulated wherein customer frequency was augmented by 10\%, resulting in an increase in patronage. Subsequently, the trained Random Forest Regressor model was utilized to predict the total sales under this revised scenario, and the resulting impact on total sales was calculated.
+
+\subsubsection{ Analyze }
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{ll}
+		\toprule
+			Mean Squared Error & 1.1574074074053022e-09 \\
+			Effect of reducing food loss & 0.04500000178813934 \\
+			Effect of putting more effort into lunch & 0.04500000178813934 \\
+			Effect of increasing customer frequency & 0.04500000178813934 \\
+			Original Total Sales & 101800509.5 \\
+			Reducing Food Loss & 0.04500000178813934 \\
+			Effort into Lunch & 0.04500000178813934 \\
+			Increasing Customer Frequency & 0.04500000178813934 \\
+		\bottomrule
+	\end{tabular}
+	\caption{Summarize the simulated results}
+	\label{tab:summarize_the_simulated_results}
+\end{table}
+
+% TODO - Summarize and clean up the paragraph
+\textbf{Model Performance} 
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{ll}
+		\toprule
+			Mean Squared Error & 1.1574074074053022e-09 \\
+		\bottomrule
+	\end{tabular}
+	\caption{The Mean Squared Error (MSE)}
+	\label{tab:the_mean_squared_error}
+\end{table}
+
+The Mean Squared Error (MSE) for our RandomForestRegressor model is an astonishingly low 1.1574074074053022e-09. This incredibly small value indicates that the model is making predictions that are extremely close to the actual values, suggesting a high level of accuracy in its performance. In other words, the model's predictions are remarkably precise, with only a tiny margin of error. This level of precision is a testament to the effectiveness of the RandomForestRegressor algorithm and its ability to learn from the training data. With an MSE this low, we can have confidence that our model is well-suited for making accurate predictions in real-world scenarios.
+
+\textbf{Simulated Strategies and Their Impact}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{ll}
+		\toprule
+			Effect of reducing food loss & 0.04500000178813934 \\
+			Effect of putting more effort into lunch & 0.04500000178813934 \\
+			Effect of increasing customer frequency & 0.04500000178813934 \\
+			Original Total Sales & 101800509.5 \\
+		\bottomrule
+	\end{tabular}
+	\caption{Simulated Strategies and Their Impact}
+	\label{tab:simulated_strategies_and_their_impact}
+\end{table}
+
+The analysis reveals that three distinct strategies were tested to determine their impact on total sales: reducing food loss, putting more effort into lunch, and increasing customer frequency. The results show that each of these approaches yielded an identical predicted increase in total sales of approximately 0.045 units. This suggests that all three strategies have a similar effect size, implying that they may not be significantly different from one another in terms of their impact on overall sales.
+
+\textbf{Key Insights}
+
+\begin{itemize}
+	\item \textbf{Model Accuracy:} The model's extremely low MSE suggests high accuracy, but may also indicate overfitting if the test data isn't diverse enough.
+	\item \textbf{Strategy Impact:} Simulated strategies (reducing food loss, putting more effort into lunch, increasing customer frequency) resulted in minimal increases in total sales. Possible reasons include:
+	\begin{itemize}
+		\item \textbf{Simulation Parameters:} The magnitude of changes might be too small to show a significant effect.
+		\item \textbf{Model Sensitivity:} The model may not be sensitive to the changes in these particular features or strategies.
+		\item \textbf{Data Quality and Feature Engineering:} Features used might not fully capture influencing factors, or encoding and preprocessing might have reduced variability.
+	\end{itemize}
+	\item \textbf{Original Sales Dominance:} The original total sales value (101,800,509.5) is high compared to simulated changes (0.045), indicating that small percentage changes may not significantly impact overall totals.
+\end{itemize}
+
+
+
+
+
+
+
+
+
+

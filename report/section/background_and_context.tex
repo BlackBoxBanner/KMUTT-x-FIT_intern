@@ -1,0 +1,111 @@
+\section{Background and Context}
+
+Understanding the environment surrounding the location you wish to work with is crucial. In this instance, I am working with data from Point-of-Sale (POS) systems in Australian cafes, where publicly available data is limited. As such, generating my own data becomes necessary. Prior to commencing any analysis, it is essential that I conduct research on a relevant topic.
+
+\subsection{Research}
+
+The insights into the average daily and monthly sales for cafes in Australia, highlighting the importance of understanding these figures for success.
+
+\subsubsection{Average Daily Sales}
+
+\begin{itemize}
+	\item Small shops with high bakery sales can average \$4,000 on weekdays and \$6,000 to \$8,000 on weekends.
+	\item Busy cafes can serve up to 1,000 coffees a day, translating to significant daily sales (around \$1,600 to \$2,500).
+	\item High-end cafes in financial districts or tourist-heavy areas can make up to \$16,000 a day during peak times.
+\end{itemize}
+
+
+\subsubsection{Average Monthly Sales}
+
+\begin{itemize}
+	\item The monthly retail revenue for cafes, restaurants, and takeaway food services in Australia was over 5.3 billion AUD in March 2024. \cite{khalil2024}
+	\item For a middle-of-the-road cafe turning over \$500,000 annually, this translates to approximately \$41,667 per month. \cite{khalil2024}
+	\item Another source indicates that cafe owners can earn between \$60,000 to \$150,000 annually, depending on the business size, which breaks down to \$5,000 to \$12,500 monthly. \cite{khalil2024}
+\end{itemize}
+
+\subsubsection{Profit Margins and Costs}
+
+\begin{itemize}
+	\item The average net profit for a cafe in Australia is around 10\% of sales. \cite{statista2024}
+	\item Typical cost distributions include:
+	\begin{itemize}
+		\item 35-40\% for goods
+		\item 30-35\% for labor
+		\item 10-15\% for rent
+	\end{itemize}
+	\item Efficient management and focusing on high-margin products can improve profitability. \cite{irvine2024}
+\end{itemize}
+
+\subsubsection{Research Summary}
+
+Running a cafe in Australia can yield varying sales figures based on several factors. On average, daily sales can range from \$1,800 to \$16,000, while monthly sales can be between \$5,000 to \$41,667. Profit margins are generally around 10\%, with significant costs attributed to goods, labor, and rent. Efficient management and strategic product offerings are key to maximizing profitability.
+
+\subsection{Data generation}
+
+To generate synthetic data for this project, I employed Python programming language and utilized a custom-built script. This approach allowed me to create a dataset that mimics real-world Point-of-Sale (POS) systems in Australian cafes.
+
+\subsubsection{Script Overview}
+
+The Python script used for data generation is designed to produce a comprehensive dataset that captures various aspects of cafe operations, including menu items, prices, sales quantities, and peak hours. The script utilizes several packages and libraries to facilitate the data generation process.
+
+\subsubsection{Packages Used}
+
+\begin{enumerate}
+	\item \textbf{Faker:} A package used to generate fake data, including names, addresses, and other information. In this case, it was used to generate menu items with names and prices.
+	\item \textbf{DynamicProvider:} A provider for Faker that allows you to define custom fake data generators. This was used to create a dynamic menu system where menu items can be generated on the fly.
+	\item \textbf{Random:} A built-in Python module used to simulate random fluctuations in sales quantities and peak hours.
+	\item \textbf{datetime:} Built-in Python modules used to generate dates and times for transactions, as well as simulate time intervals between transactions.
+	\item \textbf{timedelta:} Built-in Python modules used to generate dates and times for transactions, as well as simulate time intervals between transactions.
+	\item \textbf{uuid:} A package used to generate unique identifiers for each transaction.
+	\item \textbf{tqdm:} A package used to display a progress bar while generating data, making the process more visually appealing.
+\end{enumerate}
+
+\subsubsection{Script Code}
+
+	\textbf{Custom menu}
+	
+	\begin{lstlisting}
+menus_provider = DynamicProvider(
+	provider_name = "menus",
+	elements=menus
+)
+
+fake.add_provider(menus_provider)
+	\end{lstlisting}
+	
+	The provided code defines a custom fake data generator using the Faker library, specifically the DynamicProvider class. This generator is designed to produce menu-related data, with the provider name set to "menus" and the elements parameter populated with the menus list, which contains the actual menu items.
+	
+	\textbf{Custom menu}
+	
+	\begin{lstlisting}
+def is_open(date_time):
+	opening_hours = {
+		0: (None, None),  # Monday: Closed
+		1: ("07:00", "15:00"),  # Tuesday
+		2: ("07:00", "15:00"),  # Wednesday
+		3: ("07:00", "15:00"),  # Thursday
+		4: ("07:00", "15:00"),  # Friday
+		5: ("08:00", "15:00"),  # Saturday
+		6: ("08:00", "15:00"),  # Sunday
+	}
+	
+	day = date_time.weekday()
+	opening_time, closing_time = opening_hours[day]
+	
+	if opening_time is None or closing_time is None:
+		return False
+	
+	opening_time = datetime.strptime(opening_time, "%H:%M").time()
+	closing_time = datetime.strptime(closing_time, "%H:%M").time()
+	current_time = date_time.time()
+
+return opening_time <= current_time <= closing_time
+	\end{lstlisting}
+	
+	The "is{\_}open" function is designed to determine whether a cafe is open or closed based on its operating hours, which are defined by a dictionary "opening{\_}hours". The function takes a "date{\_}time" object as input and returns a boolean value indicating whether the cafe is open at that specific time.
+	
+	The function first determines the day of the week using the "weekday()" method, then retrieves the corresponding opening and closing times from the "opening{\_}hours" dictionary. If the cafe is closed on that day (i.e., the opening or closing time is None), the function returns "False".
+	
+	Otherwise, it converts the opening and closing times to "time" objects using the "strptime" method, and then compares the current time with the opening and closing times using the "<=" operator. If the current time falls within the cafe"s operating hours (i.e., between the opening and closing times), the function returns "True", indicating that the cafe is open.
+	
+

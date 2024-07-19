@@ -1,0 +1,141 @@
+\section{Analysis}
+
+\subsection{Data Structure}
+
+The project involves the rigorous analysis of three distinct datasets, specifically designed to capture various facets of the sales data. Each dataset has been meticulously compiled and prepared for simulation purposes, enabling a nuanced understanding of the underlying patterns and trends. Additionally, a comprehensive dataset has been created by combining the individual datasets, allowing for a holistic examination of the sales data. This integrated approach enables the identification of correlations and relationships between different variables, ultimately informing data-driven decisions.
+
+\subsubsection{Menu}
+
+The Menu dataset is a Pandas DataFrame with 48 rows and 6 columns. The dataset contains information about menu items, including unique identifiers (uuid), names, categories, prices, descriptions, and costs. Each row represents a single menu item, and each column provides additional details about that item. The data types for this dataset are float64 for the price and cost columns, and object for the remaining columns. With a memory usage of approximately 2.4 KB, this dataset is relatively small.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{cc}
+		\toprule
+		Column & Data Type \\
+		\midrule
+		uuid & string \\
+		name & string \\
+		category & string \\
+		price & float64 \\
+		description & string \\
+		cost & float64 \\
+		\bottomrule
+	\end{tabular}
+	\caption{Menus Data Structure}
+	\label{tab:menus_data_structure}
+\end{table}
+
+\subsubsection{Add-ons}
+
+The Add-ons dataset is a Pandas DataFrame with 46 rows and 5 columns. This dataset contains information about additional items or modifications that can be added to menu items, including unique identifiers (uuid), menu items, names, prices, and costs. Each row represents a single add-on item, and each column provides additional details about that item. The data types for this dataset are float64 for the price and cost columns, and object for the remaining columns. With a memory usage of approximately 1.9 KB, this dataset is relatively small compared to the Sales dataset.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{cc}
+		\toprule
+		Column & Data Type \\
+		\midrule
+		uuid & string \\
+		menu & string \\
+		name & string \\
+		price & float64 \\
+		cost & float64 \\
+		\bottomrule
+	\end{tabular}
+	\caption{Add Ons Data Structure}
+	\label{tab:add_ons_data_structure}
+\end{table}
+
+\subsubsection{Sales}
+
+The Sales dataset is a Pandas DataFrame with an impressive 108,000 rows and 4 columns. This dataset contains information about sales transactions, including unique identifiers (uuid), dates and times, menu items sold, and additional items or modifications added to those menu items. Each row represents a single sales transaction, and each column provides additional details about that transaction. The data types for this dataset are all object, indicating that the columns contain text or categorical data. With a memory usage of approximately 3.3 MB, this dataset is significantly larger than the Menu dataset.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{cc}
+		\toprule
+		Column & Data Type \\
+		\midrule
+		uuid & string \\
+		date{\_}time & string \\
+		menu{\_}item & string \\
+		add{\_}ons & string \\
+		\bottomrule
+	\end{tabular}
+	\caption{Sales Data Structure}
+	\label{tab:sales_data_structure}
+\end{table}
+
+\subsubsection{Sales Combine}
+
+This dataset appears to be a collection of sales data for various menu items. The data structure is a Pandas DataFrame, which is a two-dimensional labeled data structure with columns of potentially different types. Each row in the DataFrame represents a single sales transaction, and each column contains information about that transaction.
+
+The dataset has 27 columns, including categorical variables like "menu{\_}name" and "category", numerical variables like "price" and "sales", and datetime variables like "date{\_}time". The data is non-null for all 108,000 entries, indicating that there are no missing values in the dataset. The data types of the columns include object (categorical), float64 (numerical), int32 (integer), and category (a categorical type specific to Pandas).
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{cc}
+		\toprule
+		Column & Data Type \\
+		\midrule
+		menu\_name & string \\
+		category & string \\
+		price & float64 \\
+		cost & float64 \\
+		date\_time & datetime64[ns] \\
+		add\_ons & string \\
+		date & datetime64[ns] \\
+		time & string \\
+		add\_ons\_price & float64 \\
+		total\_price & float64 \\
+		day\_of\_week & string \\
+		sales & float64 \\
+		year & int32 \\
+		month & int32 \\
+		day & int32 \\
+		hour & int32 \\
+		total\_sales & float64 \\
+		total\_cost & float64 \\
+		total\_sale\_difference & float64 \\
+		sale\_difference & float64 \\
+		time\_category & category \\
+		reduced\_cost & float64 \\
+		profit\_increase & float64 \\
+		new\_total\_cost & float64 \\
+		increased\_sales & float64 \\
+		sales\_increase & float64 \\
+		new\_total\_sales & float64 \\
+		\bottomrule
+	\end{tabular}
+	\caption{Sales Combine Data Structure}
+	\label{tab:sales_combine_data_structure}
+\end{table}
+
+The columns can be broadly categorized into several groups:
+
+\begin{enumerate}
+	\item Menu item information: "menu{\_}name", "category"
+	\item Sales transaction details: "price", "cost", "date{\_}time", "add{\_}ons", "add{\_}ons{\_}price", "total{\_}price"
+	\item Time and date information: "date", "time", "day{\_}of{\_}week", "year", "month", "day", "hour"
+	\item Sales metrics: "sales", "total{\_}sales", "total{\_}cost", "total{\_}sale{\_}difference", "sale{\_}difference"
+	\item Calculated values: "reduced{\_}cost", "profit{\_}increase", "new{\_}total{\_}cost", "increased{\_}sales", "sales{\_}increase", "new{\_}total{\_}sales"
+\end{enumerate}
+
+\subsection{Analyzing Data}
+
+This section delves into the process of conducting comprehensive data analysis on the provided dataset, encompassing both fundamental and advanced techniques to extract valuable insights. By applying various analytical methods, we will thoroughly examine the dataset, uncovering trends, patterns, and correlations that can inform decision-making and drive business outcomes.
+	
+% Section 3.x.1 Basic analysis
+\input{section/analysis/basic_analysis}
+
+% Section 3.x.2 deep analysis
+\input{section/analysis/deep_analysis}
+
+% Section 3.3 deep simulates the effect of changes
+\input{section/simulate_effect_of_changes}
+
+
+
+
+
